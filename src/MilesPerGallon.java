@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /*********************************
  CPT163
- Micahel Lingsch
+ Michael Lingsch
  My First Java Program
  This program will calculate Miles Per Gallon
  Created On: 08/29/2018

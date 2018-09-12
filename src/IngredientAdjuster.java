@@ -3,7 +3,7 @@ import javax.swing.*;
 
 /*********************************
  CPT163
- Micahel Lingsch
+ Michael Lingsch
  My First Java Program
  This program will calculate the amount of
  ingredients needed to make a predetermined number

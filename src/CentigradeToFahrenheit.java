@@ -3,7 +3,7 @@ import javax.swing.*;
 
 /*********************************
  CPT163
- Micahel Lingsch
+ Michael Lingsch
  This program will convert Centigrade
  to Fahrenheit and visa-versa.
  Created On: 09/09/2018

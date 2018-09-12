@@ -3,7 +3,7 @@ import javax.swing.*;
 
 /*********************************
  CPT163
- Micahel Lingsch
+ Michael Lingsch
  This program will convert Inches
  to Centimeters
  Created On: 09/10/2018
