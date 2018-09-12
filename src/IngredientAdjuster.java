@@ -44,7 +44,7 @@ public class IngredientAdjuster {
         //including the JFrame into this just for fun
         JFrame frame = new JFrame();
 
-        JOptionPane.showMessageDialog(frame, "In order to make " + numberOfCookies + " you will need the following: \n" +
+        JOptionPane.showMessageDialog(frame , "In order to make " + numberOfCookies + " you will need the following: \n" +
                 requiredSugar + " cups of Sugar \n" +
                 requiredButter + " cups of Butter \n" +
                 requiredFlour + " cups of Flour." , "Cookie Ingredient List", JOptionPane.INFORMATION_MESSAGE);
