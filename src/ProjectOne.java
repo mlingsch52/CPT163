@@ -32,7 +32,7 @@ public class ProjectOne {
         JOptionPane.showMessageDialog(null, "To get our temperature into Fahrenheit we \n" +
                 "will multiply" + centigrade + " degrees Centigrade by 1.8 \n" +
                 "then add 32. The result will be our temperature in Fahrenheit.");
-        fahrenheit = (centigrade * 1.8) + 32;
+        fahrenheit = (centigrade * (9/5f)) + 32;
 
         //Display the converted temperature
         JOptionPane.showMessageDialog(null, centigrade + " degrees Centigrade is equal to \n" +
