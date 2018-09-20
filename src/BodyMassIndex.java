@@ -36,13 +36,13 @@ public class BodyMassIndex {
         bodyMassIndex = weight * 703 / Math.pow(height, 2);
 
         if (bodyMassIndex < 18.50) {
-            JOptionPane.showMessageDialog(null, "Your BMI is " + Math.round((bodyMassIndex * 100) / 100d) + "! \n" +
+            JOptionPane.showMessageDialog(null, "Your BMI is " + Math.round((bodyMassIndex * 100)) / 100d + "! \n" +
                     "You are considered underweight!");
         } else if (bodyMassIndex >= 18.50 && bodyMassIndex <=25.00) {
-            JOptionPane.showMessageDialog(null, "Your BMI is " + Math.round((bodyMassIndex * 100) / 100d) + "! \n" +
+            JOptionPane.showMessageDialog(null, "Your BMI is " + Math.round((bodyMassIndex * 100)) / 100d + "! \n" +
                     "You are considered ideal weight!");
         } else if (bodyMassIndex > 25.00) {
-            JOptionPane.showMessageDialog(null, "Your BMI is " + Math.round((bodyMassIndex * 100) / 100d) + "! \n" +
+            JOptionPane.showMessageDialog(null, "Your BMI is " + Math.round((bodyMassIndex * 100)) / 100d + "! \n" +
                     "You are considered overweight!");
         }
 
