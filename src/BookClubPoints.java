@@ -1,7 +1,6 @@
 import javax.swing.*;
-import java.text.NumberFormat;
 import java.util.Calendar;
-import java.util.Locale;
+
 
 /*********************************
  CPT163
@@ -10,7 +9,7 @@ import java.util.Locale;
  total points earned for the Serendipity
  Booksellers Club
  Created On: 09/20/2018
- Last Modified: 09/20/2018
+ Last Modified: 09/26/2018
  *********************************/
 
 public class BookClubPoints {
@@ -63,6 +62,8 @@ public class BookClubPoints {
             JOptionPane.showMessageDialog(null, "You haven't purchased any books! Get your act together. Zero points!");
 
         }
+
+        System.exit(0);
 
     }
 }
