@@ -27,7 +27,8 @@ public class BookClubPoints {
         String currentMonth = currentMonthName[cal.get(Calendar.MONTH)];
 
         //Establish how many books were purchased in the Current Month
-        booksPurchasedPerMonth = JOptionPane.showInputDialog("How many books have you purchased so far for the month of " + currentMonth + "?");
+        booksPurchasedPerMonth = JOptionPane.showInputDialog("How many books have you purchased so far for the month of " + currentMonth + "?\n" +
+                "Please use whole numbers only.");
         booksPurchased = Integer.parseInt(booksPurchasedPerMonth);
 
         //Calculate how many points they've earned this month
