@@ -43,7 +43,7 @@ public class BarChart {
                 "a whole number rounded to the nearest 100.");
         storeFive = Integer.parseInt(storeFiveSales) / 100;
 
-        //run the loops to figure out how many marks on the chart each store will receive
+        //run the loops to figure out how many marks on the chart each store will receive and print the output
         int x = 1;
 
         System.out.println("Sales Bar Chart");
@@ -92,6 +92,5 @@ public class BarChart {
 
         System.exit(0);
     }
-
 
 }
